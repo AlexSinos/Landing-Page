@@ -1,0 +1,175 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: "roboto";
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.intro-bg,
+.second-bg,
+.third-bg,
+.forth-bg {
+  flex: 1;
+}
+.header {
+  margin: 10px 200px;
+}
+.first,
+.second,
+.third,
+.forth {
+  margin: 40px 200px;
+}
+.third-bg {
+  background-color: #e5e7eb;
+}
+.header-bg,
+.intro-bg,
+.footer-bg {
+  background-color: #1f2937;
+}
+/* -----------HEADER------------------------ */
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.header {
+  color: #f9faf8;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+/* --------------HEADER ----------*/
+
+/* --------------FIRST SECTION----------*/
+
+.intro-bg .first {
+  display: flex;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+.intro,
+.intro-image {
+  flex: 1;
+}
+.intro-header {
+  font-size: 48px;
+  font-weight: 1000;
+  color: #f9faf8;
+}
+.intro-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.intro-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* --------------FIRST SECTION ----------*/
+
+/* --------------SECOND SECTION ----------*/
+.second-bg .second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.second-sect-header {
+  font-size: 36px;
+  font-weight: 1000;
+  color: #1f2937;
+  margin: 0 0 100px;
+}
+.second-sect-images {
+  display: flex;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  flex: 1;
+  display: flex;
+  flex-shrink: 1;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* --------------SECOND SECTION ----------*/
+
+/* --------------THIRD SECTION ----------*/
+.third-sect-text {
+  font-size: 36px;
+  font-style: italic;
+}
+.third-bg .third {
+  display: flex;
+}
+span {
+  font-weight: 1000;
+  font-size: 16px;
+  font-style: normal;
+}
+/* --------------THIRD SECTION ----------*/
+/* --------------FORTH SECTION ----------*/
+.warning {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  display: flex;
+  padding: 30px 80px;
+}
+.warning-left-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+.warning-left {
+}
+.warning-right {
+  justify-content: center;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  display: flex;
+}
+/* --------------FORTH SECTION ----------*/
+
+/* --------------FOOTER SECTION ----------*/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: #e5e7eb;
+
+  align-items: center;
+}
+/* --------------FOOTER SECTION ----------*/
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
